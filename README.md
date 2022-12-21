@@ -1,15 +1,13 @@
 
-S3 Uploader for Webpack
+S3 Uploader for Webpack5
 ===  
-
-[![Build Status](https://travis-ci.org/matrus2/webpack-s3-uploader.svg?branch=master)](https://travis-ci.org/matrus2/webpack-s3-uploader) 
   
 This will upload all compiled assets to AWS S3 bucket during a webpack build process. You can serve all your files via Cloud Front or different CDN.
 
 ### Installation
 
 ```
-$ npm i -S webpack-s3-uploader-webpack5
+$ npm i -S webpack5-s3-uploader
 ```
 
 ### How to use it 
@@ -24,7 +22,7 @@ AWS_SECRET_ACCESS_KEY
 ```javascript
 
 // require plugin 
-var S3Uploader = require('webpack-s3-uploader')
+var S3Uploader = require('webpack5-s3-uploader')
 
 
 const config = {
